@@ -1,0 +1,42 @@
+.table-border-bottom{
+    border-bottom: 1px solid rgb(224 224 224 / 8%) !important;
+}
+
+.tablepaginationglobal p {
+    margin-top: 15px;
+}
+
+.tablepaginationglobal .MuiTablePagination-select{
+    border: 1px solid #a9a9a966;
+    border-radius: 6px;
+}
+
+/* .imageintableforprp{
+    width:20%;
+} */
+
+.Fishoopingscartsinlistingtable{
+    color: aqua;
+}
+
+.Fishoopingscartsinlistingtable:hover{
+    color:yellowgreen;
+}
+
+@media(max-width: 600px){
+    .ProfileTableScroll{
+        width: 100% !important;
+        overflow: auto !important;
+    }
+    .tableHeightsVariation{
+        overflow-x: auto !important;
+        width:400px !important;
+    }
+    .userwallettableinsmallscreen{
+        overflow-x: auto !important;
+        width:400px !important;
+    }
+    .imageintableforprp{
+        width: 20px;
+    }
+}

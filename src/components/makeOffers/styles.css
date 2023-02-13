@@ -1,0 +1,76 @@
+.connectwallet_modal{
+  border-radius: 1.5em;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 30% !important;
+  padding: 0 0 1% 0 !important;
+  padding: 2% 4% !important;
+  box-Shadow: none;
+  background: rgb(8 8 23);
+  border: 1.04665px solid rgb(255 255 255 / 20%);
+  border-radius: 16px;
+}
+
+ .connect_header{
+    background: transparent !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    color: white !important;
+    border-radius: 22px 22px 0 0 !important;
+    margin-bottom: 4% !important;
+    font-family:LufgaRegular!important;
+  }
+
+  .walletTitle{
+    text-align: center;
+    font-weight: 700;
+  }
+  .icons{
+    width: 40px;
+    height: 40px;
+    padding:8px
+  }
+
+  .boxconnect{
+    background-color: rgb(22 22 45);
+    /* width: 100%; */
+    padding: 5%;
+    border-radius: 5px;
+  }
+
+  .walletshowmoretext{
+    color:#9091A6;
+  }
+
+  .walletshowmoretext:hover{
+    color:#0BC209;
+  }
+
+  /* .boxconnect:hover{
+    background-color: rgb(54 54 104);
+    border-radius: 16px;
+  } */
+
+  .modliners{
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    font-weight: 300;
+    padding: 0px 0px 0px 100%;
+  }
+
+  .bidingsInputfield{
+    width: 50%;
+    background-color: rgb(22 22 45);
+    color: darkgray;
+    border: none;
+    outline: none;
+  }
+  
+@media (max-width: 600px) {
+  .connectwallet_modal{
+    width: 80% !important;
+    padding: 6% 5% !important;
+  }
+}

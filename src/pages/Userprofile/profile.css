@@ -1,0 +1,217 @@
+.profile-addicon {
+    position: absolute;
+    right: 14px;
+    top: 11px;
+}
+
+.profile-input {
+    width: 100%;
+    height: 56px;
+    border-radius: 1.75rem;
+    border: none;
+    background-color: rgb(22 22 45);
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(144, 146, 150, 0.18));
+    color: rgb(255 255 255);
+    padding: 5px 0px 10px 20px;
+    outline:none;
+}
+
+.profilecircle {
+    color: #14afd6;
+    position: relative;
+    left: 10px;
+    bottom: 2px;
+}
+
+.profileiocircle {
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    background-color: #3e3e4f;
+    color: darkgrey;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.addsssssicon {
+    width: 26px;
+    height: 26px;
+    background-color: aqua;
+    background-image: linear-gradient(to bottom, #36f8fb, #2bdde0, #1fc3c6, #14a9ac, #069093);
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.profileFav {
+    color: rgb(255 255 255);
+    width: 18px;
+    height: 22px;
+}
+
+.activityTable {
+    background-color: #1a1a2f !important;
+    cursor: pointer;
+    color: darkgrey !important;
+    font-weight: 600 !important;
+    border-bottom: none !important;
+    /* width: 100% !important;
+    border-radius: 10px; */
+}
+
+.activityPrice {
+    margin-top: 2%;
+    border-radius: 8px;
+    overflow: hidden !important;
+}
+
+.editbtpf {
+    width: 100%;
+    line-height: 2.25rem;
+    border-radius: 2.5em;
+    border: 2px solid rgb(144 146 150 / 44%);
+    background-color: transparent;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255 255 255 / 54%);
+}
+
+.editbtpf:hover {
+    background-color: #00000094;
+    border:2px solid #00000094;
+}
+
+.copybtpf {
+    width: 100%;
+    line-height: 2.25rem;
+    border-radius: 2.5em;
+    border: 1px solid rgb(0 0 0 / 13%);
+    background-color: rgb(144 146 150 / 40%);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f9fa;
+}
+
+.copybtpf:hover {
+    background-color: #0dcaf0c2;
+}
+
+.Profilebgimg {
+    background-image: url("../../assets/images/Rectangle.png");
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+}
+
+.ProfilebgimgActivity {
+    background-image: url("../../assets/images/Rectangle.png");
+    background-repeat: no-repeat !important;
+    background-size: 100% 52% !important;
+}
+
+.ProfilebgimgAuction {
+    background-image: url("../../assets/images/Rectangle.png");
+    background-repeat: no-repeat !important;
+    background-size: 100% 45% !important;
+}
+
+.Profilebgimgfavarote {
+    background-image: url("../../assets/images/Rectangle.png");
+    background-repeat: no-repeat !important;
+    background-size: 100% 75% !important;
+}
+
+.Profilebgimgfavarote1 {
+    background-image: url("../../assets/images/Rectangle.png");
+    background-repeat: no-repeat !important;
+    background-size: 100% 45% !important;
+}
+
+.pftext {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.volumebt {
+    width: 100%;
+    line-height: 4.25rem;
+    border-radius: 0.5em;
+    border: 1px solid rgb(0 0 0 / 13%);
+    background-color: rgb(144 146 150 / 40%);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255 255 255 / 54%);
+}
+
+/* .copybtpf:hover {
+    background-color: #0dcaf0c2;
+} */
+
+.modalrounted {
+    border-radius: 100px;
+    border: 1px solid rgb(144 146 150 / 18%);
+    padding: 0.5em1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255 189 0);
+    background-color: transparent;
+    font-weight: bold;
+    box-shadow: inset 0 0 10px #adb5bd;
+    width: 30%;
+    height: 130px;
+    position: absolute;
+    top: 7%;
+
+}
+
+.roundedUserImage {
+    width: 50px;
+    border-radius: 100px;
+}
+
+.editProfileImageBox {
+    position: relative;
+}
+
+.buttonalign {
+    z-index: 100;
+}
+
+.roundedUserImageEdit {
+    width: 100px;
+    border-radius: 200px;
+}
+
+.rewardInput {
+    line-height: 2.25rem;
+    border-radius: 0.75rem;
+    border: none;
+    background-color: rgb(22 22 45);
+    background-image: linear-gradient(to left, rgb(255 255 255 / 0%), rgb(144 146 150 / 8%));
+    color: white;
+    padding: 5px 0px 10px 20px;
+    position: relative;
+    outline:none;
+}
+
+.profileEditModal{
+    width:50%;
+}
+@media (max-width: 600px) {
+    .profileEditModal{
+        width:85%;
+    }
+    .spaceinmobileviewforprofilepage{
+        margin-top: 6%;
+    }
+    .spaceinmobileviewforprofilepage1{
+        margin-bottom: 5%;
+    }
+}

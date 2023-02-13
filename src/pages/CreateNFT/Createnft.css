@@ -1,0 +1,203 @@
+.createNFT {
+    width: 100% !important;
+    height: 350px;
+    padding: 0 0 1% 0 !important;
+    padding: 2% 4% !important;
+    box-Shadow: none;
+    background-image: linear-gradient(to top, rgb(22 22 45), rgb(171 175 184 / 18%));
+    border-radius: 4% !important;
+    display: flex;
+}
+
+.createNFT1 {
+  width: 100% !important;
+  box-Shadow: none;
+  background-image: linear-gradient(to top, rgb(22 22 45), rgb(171 175 184 / 18%));
+  border-radius: 4% !important;
+  display: flex;
+}
+
+.crdescription {
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-align: start;
+    position: relative;
+}
+
+.createNFTinput {
+    line-height: 2.25rem;
+    border-radius: 0.75rem;
+    border: none;
+    background-color: rgb(22 22 45);
+    background-image: linear-gradient(to left, rgb(255 255 255 / 0%), rgb(144 146 150 / 8%));
+    color: white;
+    padding: 5px 0px 10px 33px;
+    position: relative;
+    outline: none;
+}
+
+.createNFT1valueinput {
+  line-height: 2.25rem;
+  border: none;
+  width:100%;
+  padding: 4% 5%;
+  border-radius: 0.75rem;
+  background-color: rgb(22 22 45);
+  background-image: linear-gradient(to left, rgb(255 255 255 / 0%), rgb(144 146 150 / 8%));
+  color: white;
+  position: relative;
+  outline: none;
+}
+
+.createNFT3valueinput{
+  padding: 2% 5% !important;
+}
+
+.deleteforever{
+  color:green;
+  cursor: pointer;
+}
+
+.deleteforever:hover{
+  color:red;
+}
+
+.createNFT2valueinput {
+  line-height: 2.25rem;
+  border: none;
+  width:100%;
+  padding: 8%;
+  border-radius: 0.75rem;
+  background-color: rgb(22 22 45);
+  background-image: linear-gradient(to left, rgb(255 255 255 / 0%), rgb(144 146 150 / 8%));
+  color: white;
+  position: relative;
+  outline: none;
+}
+
+.createCollectioninput{
+  line-height: 2.25rem;
+  border-radius: 0.75rem;
+  border: none;
+  background-color: rgb(22 22 45);
+  background-image: linear-gradient(to left, rgb(255 255 255 / 0%), rgb(144 146 150 / 8%));
+  color: white;
+  padding: 2%;
+  outline: none;
+}
+
+.collectionlinkinput{
+  line-height: 2.25rem;
+  border-radius: 0.75rem;
+  border: none;
+  background-color: rgb(22 22 45);
+  background-image: linear-gradient(to left, rgb(255 255 255 / 0%), rgb(144 146 150 / 8%));
+  color: white;
+  padding: 1% 2%;
+  outline: none;
+}
+
+.collectionlinkinput1{
+  width: 87%;
+  background-color: rgb(22 22 45);
+  background-image: linear-gradient(to left, rgb(255 255 255 / 0%), rgb(144 146 150 / 8%));
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.bscirclecr{
+    position: relative;
+    cursor:pointer;
+}
+.pluscircle{
+    /* background-color: linear-gradient(180deg, #FBA4C2 4.94%, #BD4987); */
+    color:#0BC209;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+    padding: 0% 4%;
+  }
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }  
+  .checking:checked + .slider {
+    background-color: rgb(30 30 60);;
+  }
+  
+  /* .checking:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  } */
+  
+  .checking:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background-color: rgb(0 218 255);
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(30 30 60);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 4px;
+    bottom: 2px;
+    top: 5px;
+    background-color: rgb(122 122 159);
+    transition: .4s;
+  }
+
+  .createnftStarselectimg{
+    position:absolute;
+    z-Index:5;
+    top:49%;
+    left:3%; 
+  }
+
+  .collectionsEthimgsforspace{
+    position:absolute;
+    bottom:21%;
+    left:3%; 
+  }
+
+  .nftcreateinputinremoved{
+    color: white;
+    position: absolute;
+    right: 16%;
+    top:2%;
+  }
+
+  @media (max-width: 600px) {
+    .createnftStarselectimg1{
+      top: 62%;
+    }
+    .collectionsEthimgsforspace{
+      bottom: 16%;
+    }
+  }
+
+  .collectiontextinbold{
+    font-weight: 600;
+  }

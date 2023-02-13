@@ -1,0 +1,229 @@
+.backgroundnftdetails {
+    background-image: url("../../assets/images/bg1.svg");
+    background-repeat: no-repeat !important;
+    background-size: 62% !important;
+}
+
+.bgimg {
+    border-radius: 6%;
+    width: 100%;
+}
+
+.dots {
+    color: rgb(255 255 255);
+    margin-right: 4%;
+    cursor: pointer;
+}
+
+.spliter {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    font-weight: 300;
+    padding: 1% 98% 0% 0%;
+}
+
+.backimg {
+    width: 2.5em;
+}
+
+.share {
+    width: 1.2em;
+    margin-right: 4%;
+    cursor: pointer;
+}
+
+.bell {
+    background-color: rgb(8 8 23) !important;
+    width: 100%;
+    height: 70px;
+    color: rgb(151, 151, 151) !important;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 2rem 0 rgb(136 152 170 / 15%) !important;
+    text-transform: none !important;
+}
+
+.bell:hover {
+    background-color: rgb(22 22 45) !important;
+}
+
+.nfttable {
+    background-color: rgb(8 8 23) !important;
+    cursor: pointer;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600 !important;
+    border-bottom: 2px solid #0BC209 !important;
+}
+
+.nfttable1 {
+    background-color: rgb(8 8 23) !important;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.2) !important;
+    font-weight: 600 !important;
+}
+
+.ridownline {
+    color: #6c747b;
+    cursor: pointer;
+}
+
+.properties {
+    font-weight: 600;
+}
+
+.ntffooterd {
+    background-color: #1a1a2f !important;
+    cursor: pointer;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600 !important;
+    /* border-right: 2px solid palevioletred !important; */
+    border-bottom: none !important;
+}
+
+.price {
+    background-color: #1a1a2f !important;
+    cursor: pointer;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600 !important;
+    /* border-right: 2px solid palevioletred !important; */
+    border-bottom: none !important;
+    width: 100% !important;
+}
+
+.blackbuy {
+    background-color: rgb(27 27 39) !important;
+    width: 100%;
+    color: rgb(151, 151, 151) !important;
+    border-radius: 1.75rem;
+    border: 1px solid;
+}
+
+.charts {
+    border-color: #BD4987 !important;
+}
+
+.nftdetailbutton {
+    background-color: rgb(8 8 23) !important;
+    width: 100%;
+    height: 70px;
+    color: rgb(151, 151, 151) !important;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 2rem 0 rgb(136 152 170 / 15%) !important;
+}
+
+.input-search {
+    background-color: #1a1a2f;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    padding: 2%;
+    color: rgb(255, 255, 255);
+}
+
+.heartsdislikedetails{
+    width:30px !important;
+    height:30px !important;
+    background: linear-gradient(180deg,#818E8A , #818E8A) !important;
+}
+.heartslikedetails{
+    width:30px !important;
+    height:30px !important;
+    background: linear-gradient(180deg, #0BC209,#157313 ) !important;
+}
+
+.nftlistindetailspage{
+    background-color: #2d333a !important;
+    border-radius: 10px;
+    width: 80%;
+    padding: 2%;
+    position: relative;
+    right: 25px;
+}
+
+.nftdetailpageproptable{
+    width: 80% !important;
+}
+
+.nftdetailpageproptable1{
+    width: 80% !important;
+}
+
+.pricetableinnftdetails {
+    border-radius: 10px !important;
+    /* width: 80% !important; */
+}
+
+.pricetableinnftdetails1{
+    border-radius: 10px !important;
+    width: 80% !important;
+}
+
+.pricetableinnftdetails2{
+    border-radius: 10px !important;
+    width: 80% !important;
+}
+
+.ntffooterdtbleindetails {
+    background-color: #1a1a2f !important;
+    cursor: pointer;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600 !important;
+    border-bottom: none !important;
+}
+
+.moreoptionszoom {
+    width: 100%;
+    font-weight: 600;
+    color: rgb(53, 56, 64);
+    cursor: pointer;
+}
+
+.moreoptionszoom:hover{
+    transition: all 0.2s ease 0s;
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+    background-color: rgb(251, 253, 255);
+}
+
+.logosindropdownnftd{
+    width:60%;
+}
+
+.chartstableinnftdetails{
+    width:80%;
+}
+
+.popoverinnftdetailspage{
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    top:40px;
+    width:70%;
+    z-index: 5;
+}
+
+@media (max-width: 600px) {
+    .nftlistindetailspage{
+        right: 12px;
+    }
+    .pricetableinnftdetails {
+        width: 724px !important;
+    }
+    .pricetableinnftdetails1{
+        width: 660px !important;
+    }
+    .pricetableinnftdetails2{
+        width: 784px !important;
+    }
+    .nftdetailpageproptable1{
+        width: 1070px !important;
+    }
+    .nftdetailpageproptable{
+        width: 600px !important;
+    }
+    .spaceinmobileviewornftdeatils{
+        margin-top: 4%;
+    }
+    .popoverinnftdetailspage{
+        width:252px;
+    }
+    .logosindropdownnftd{
+        width:32%;
+    }
+  }

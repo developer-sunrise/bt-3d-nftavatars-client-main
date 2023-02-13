@@ -1,0 +1,259 @@
+body{
+  background-color: rgba(4,4,4,255) !important;
+  font-family: Poppins-SemiBold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: "PoppinsBold";
+}
+
+font{
+  font-family: "PoppinsMedium";
+}
+
+.allimgfit{
+  object-fit: cover;
+}
+
+label,h6,input{
+  font-family: "PoppinsSemiBold";
+}
+
+p,button,small,::-webkit-input-placeholder{
+  font-family: "PoppinsRegular";
+}
+
+.popinsMd{
+  font-family: "PoppinsMedium" !important;
+}
+.popinsSm{
+  font-family: "PoppinsSemiBold" !important;
+}
+
+.popinsRg{
+  font-family: "PoppinsRegular" !important;
+}
+
+.popinsBd{
+  font-family: "PoppinsBold" !important;
+}
+
+.textrosehovering:hover{
+  color:#F55EA9 !important;
+}
+
+.textsbluehovering:hover{
+  color:#0BC209!important;
+}
+
+.text-gradient:hover {
+  color:#008ace;
+  /* background: linear-gradient(270deg, #BF40BF 0%, #0BC209 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important; */
+}
+
+.text-gray{
+  color:rgb(151 151 151);
+}
+
+.text-green{
+  color:#0BC209;
+}
+
+.text-length{
+  display: inline-block;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* border styles */
+
+.border-lightgray{
+  border: 1px solid #d3d3d32e;
+}
+
+.border-gray {
+  border: 1px solid lightgray;
+}
+
+.border-bottom {
+  border-bottom: 0.5px solid lightgray;
+}
+.radius-md {
+  border-radius: 0.5em !important;
+}
+.radius-lg {
+  border-radius: 1em !important;
+}
+.radius-xl {
+  border-radius: 2em !important;
+}
+
+.radius-xl:hover{
+  border-radius: 0.5em !important;
+}
+
+.hidden {
+  overflow: hidden;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.img-zoom-animation {
+  transition: transform 0.8s;
+}
+.img-zoom-animation:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+}
+
+.card-zoom-animation{
+  transition: transform 1.0s;
+}
+
+.card-zoom-animation:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+}
+
+.glow-on-hover {
+  width: 100%;
+  padding: 5%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: rgb(22 22 45);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  border:1px solid #65696b26;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(22 22 45);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+::-webkit-scrollbar{
+  width: 1px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgb(8 8 23);
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgb(8 8 23);
+}
+
+.Toastify__toast-body {
+  margin: auto 0;
+  flex: 1 1 auto;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  width: 100% !important;
+}
+.Toastify__close-button {
+    color: #fff;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s ease;
+    align-self: flex-start;
+    width: auto !important;
+}
+
+.btns{
+  width: 100% !important;
+  outline: none !important;
+  text-transform: none !important;
+}
+
+/* .btns:hover{
+  background-color: #008ace !important;
+} */
+
+.btnsbg{
+  background-color: #1e1e1e  !important;
+}
+
+.btnsbg:hover{
+  background-color: rgb(255 255 255 / 20%)  !important;
+  border-radius: 1em !important;
+}
+
+button{
+  outline: none !important;
+}
+
+@media (max-width: 600px) {
+  .btns{
+    padding: 9% !important;
+  }
+}
