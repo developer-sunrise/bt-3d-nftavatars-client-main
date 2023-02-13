@@ -1,0 +1,125 @@
+.signupmodal {
+  background-color: rgb(8 8 23);
+  color: white;
+  border-radius: 20px;
+  /* border: 1px solid #d3d3d32e; */
+  padding: 2%;
+  box-shadow: #adb5bd6e 0px 1px 4px;
+}
+
+.signupmodalnftlogo {
+  width: 64%;
+}
+
+.modal-content {
+  border: 0 !important;
+  background-color: rgb(8 8 23) !important;
+  border-radius: 50px !important;
+}
+
+.signupinput {
+  background-color: rgb(22 22 45);
+  color: white;
+  width: 100%;
+  outline: none;
+  border-radius: 8px;
+  border: 0 !important;
+  text-transform: capitalize;
+}
+
+.signupinput1 {
+  background-color: rgb(22 22 45);
+  color: white;
+  /* width: 80%; */
+  outline: none;
+  border-radius: 8px;
+  border: 0 !important;
+  text-transform: capitalize;
+}
+
+.signupinput2 {
+  background-color: rgb(22 22 45);
+  color: white;
+  width: 20%;
+  outline: none;
+  border-radius: 8px;
+  border: 0 !important;
+  text-transform: capitalize;
+}
+
+.signupotpinput {
+  background-color: rgb(22 22 45);
+  color: white;
+  width: 14%;
+  padding: 2% 6%;
+  outline: none;
+  border-radius: 8px;
+  border: 0 !important;
+}
+
+.signupinputboxpadding {
+  padding: 6%;
+}
+
+.signupinputboxpadding1 {
+  padding: 3%;
+}
+
+.fixedPriceinputpaddings{
+  padding:6%;
+}
+
+.alreadytext {
+  color: #17a2b8;
+}
+
+.alreadytext:hover {
+  color: #008ace;
+  /* border-bottom: 1px solid #008ace; */
+}
+
+.signuptextinmodal{
+  color:#0BC209;
+  /* background: linear-gradient(270deg, #BF40BF 0%, #0BC209 100%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important; */
+}
+
+.gradient-text-color{
+  background: linear-gradient(270deg, #0BC209  0%, #BF40BF 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.signforgotpasswordtext{
+  color:orange;
+}
+
+.signforgotpasswordtext:hover{
+  color:#008ace;
+}
+
+.signinresenttext{
+  color:#008ace;
+}
+
+.signinresenttext:hover{
+  color:greenyellow;
+}
+
+@media (max-width: 600px) {
+  .signupinputboxpadding {
+    padding: 3%;
+  }
+  
+  .signupinputboxpadding1 {
+    padding: 3%;
+  }
+  .fixedPriceinputpaddings{
+    padding:3%;
+  }
+  .signupmodalnftlogo {
+    width: 50%;
+  }
+}
+

@@ -1,0 +1,22 @@
+<svg id="Ethereum-Icon-Purple-Logo.wine_Copy" data-name="Ethereum-Icon-Purple-Logo.wine Copy" xmlns="http://www.w3.org/2000/svg" width="9.824" height="16" viewBox="0 0 9.824 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8a92b2;
+      }
+
+      .cls-2 {
+        fill: #62688f;
+      }
+
+      .cls-3 {
+        fill: #454a75;
+      }
+    </style>
+  </defs>
+  <path id="Path" class="cls-1" d="M4.91,5.917V0L0,8.148Z"/>
+  <path id="Shape" class="cls-2" d="M0,8.149,4.91,5.917v5.135ZM4.91,5.917V0L9.822,8.149Z"/>
+  <path id="Path-2" data-name="Path" class="cls-3" d="M0,0V5.135l4.911-2.9Z" transform="translate(4.91 5.917)"/>
+  <path id="Path-3" data-name="Path" class="cls-1" d="M4.91,2.9,0,0,4.91,6.92Z" transform="translate(0 9.08)"/>
+  <path id="Path-4" data-name="Path" class="cls-2" d="M4.914,0,0,2.9V6.92Z" transform="translate(4.91 9.08)"/>
+</svg>

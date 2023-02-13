@@ -1,0 +1,62 @@
+.privacymodal{
+    border-radius: 1.5em;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 80% !important;
+    padding: 0 0 1% 0 !important;
+    padding: 2% 4% !important;
+    box-Shadow: none;
+    background: rgb(10 10 39);
+    border: 1.04665px solid rgb(255 255 255 / 20%);
+    border-radius: 16px;
+  }
+
+  .termsmodal{
+    border-radius: 1.5em;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 80% !important;
+    padding: 0 0 1% 0 !important;
+    padding: 2% 4% !important;
+    box-Shadow: none;
+    background: rgb(10 10 39);
+    border: 1.04665px solid rgb(255 255 255 / 20%);
+    border-radius: 16px;
+  }
+  .privacytitle{
+    font-weight: 400;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+  }
+
+  .privacyheader {
+    background: transparent !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    color: white !important;
+    border-radius: 22px 22px 0 0 !important;
+    margin-bottom: 1% !important;
+    font-family: LufgaRegular!important;
+}
+
+.connectcompany{
+  width: 30%;
+}
+
+@media (max-width: 600px) {
+  .termsmodal{
+    top: 70% !important;
+    width: 90% !important;
+  }
+  .privacymodal{
+    top: 112% !important;
+    width: 90% !important;
+  }
+  .connectcompany{
+    width: 80% !important;
+  }
+}

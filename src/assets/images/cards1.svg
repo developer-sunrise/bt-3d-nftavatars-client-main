@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="121px" viewBox="0 0 99 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>16E4C022-FB13-4391-9362-971ADBBBD9BA</title>
+    <defs>
+        <linearGradient x1="50%" y1="7.94910905%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0BC209" offset="0%"></stop>
+            <stop stop-color="#157313" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="7.94910905%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#0BC209" offset="0%"></stop>
+            <stop stop-color="#157313" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="NFT-Home-green" transform="translate(-188.000000, -1386.000000)">
+            <g id="Card/How-to-get-Started" transform="translate(90.000000, 1291.000000)">
+                <g id="Group-69" transform="translate(16.000000, 95.000000)">
+                    <g id="Connect-Wallet" transform="translate(83.000000, 0.000000)">
+                        <g id="Group-46" transform="translate(18.604651, 57.674419)" stroke-linejoin="round" stroke-width="2">
+                            <g id="Group-45" transform="translate(3.620365, 0.000000)">
+                                <line x1="6.582481" y1="31.6048161" x2="6.582481" y2="43.9815273" id="Path-17" stroke="#FFFFFF" stroke-linecap="round"></line>
+                                <path d="M6.582481,31.1627907 L5.92853292,31.2039599 C4.15613951,31.3155406 2.57212467,32.3485308 1.75532827,33.9254494 L1.0007714,35.3822075 C0.630739445,36.0965964 0.423500347,36.8840643 0.393938031,37.6880551 L0.216076926,42.5252504 C0.0783535539,46.2708407 1.51421365,49.903182 4.17577269,52.5422194 L12.0819544,60.3815005 C13.3379239,61.6268422 15.035018,62.3255814 16.8037281,62.3255814 L24.9333933,62.3255814 C28.2673605,62.3255814 31.5177511,61.2822713 34.2289012,59.3419099 L35.9900103,58.0814899 C37.5709906,56.9499875 38.8498788,55.4475133 39.714302,53.7060861 C40.5802172,51.9616534 41.0307982,50.0405343 41.0307982,48.0930091 L41.0307982,33.8149431 L41.0307982,33.8149431 C40.9001311,31.0509663 38.9954377,28.6894873 36.321781,27.9766045 L33.3512371,27.1845621 L33.3512371,27.1845621 L17.5532827,23.4273462 L17.5532827,16.0940104 C17.5532827,13.0645072 15.0973851,10.6086096 12.0678818,10.6086096 C9.03837861,10.6086096 6.582481,13.0645072 6.582481,16.0940104 L6.582481,31.1627907 L6.582481,31.1627907 Z" id="Path-18" stroke="#FFFFFF"></path>
+                                <line x1="11.6290498" y1="2.55188324e-14" x2="11.6290498" y2="4.6412667" id="Path-19" stroke="#FFBD00" stroke-linecap="round"></line>
+                                <line x1="22.2541881" y1="4.65792637" x2="18.9960262" y2="7.93979753" id="Path-19-Copy" stroke="#FFFFFF" stroke-linecap="round"></line>
+                                <line x1="4.26207333" y1="7.71878483" x2="1.00391147" y2="4.43691367" id="Path-19-Copy-3" stroke="#FFFFFF" stroke-linecap="round"></line>
+                                <line x1="1.84849697" y1="23.4440059" x2="0.219416033" y2="25.1954478" id="Path-19-Copy-5" stroke="#FFFFFF" stroke-linecap="round"></line>
+                                <line x1="27.7561282" y1="14.9183572" x2="23.1483915" y2="14.9183572" id="Path-19-Copy-2" stroke="#FFBD00" stroke-linecap="round"></line>
+                            </g>
+                            <line x1="4.6077367" y1="15.3603826" x2="0" y2="15.3603826" id="Path-19-Copy-4" stroke="#FFBD00" stroke-linecap="round"></line>
+                        </g>
+                        <g id="Group-47">
+                            <ellipse id="Oval" fill="url(#linearGradient-1)" cx="71.2250533" cy="57.9263787" rx="4.2219019" ry="4.19564259"></ellipse>
+                            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" x="61.925094" y="48.5956846" width="34.819092" height="18.8803917" rx="3.77220964"></rect>
+                            <line x1="5.50935" y1="31.0984718" x2="85.835673" y2="30.9889701" id="Path-20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.72437346682829,6.287016139310949"></line>
+                            <path d="M5.50935,85.6582741 L18.7770561,85.5987305 M62.791934,85.4011978 L85.835673,85.2977807" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.72437346682829,6.287016139310949"></path>
+                            <path d="M0,27.5944186 L0,21.5945869 C4.08701138e-16,17.6793578 2.99500247,14.414748 6.89573217,14.0781073 L79.645567,7.79965354 C81.7211855,7.62052358 83.5490203,9.15793132 83.7281503,11.2335498 C83.7374591,11.3414138 83.74212,11.4496285 83.74212,11.5578933 L83.74212,21.4623256 L83.74212,21.4623256" id="Path-21" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"></path>
+                            <path d="M7.933464,22.1193355 L65.0364948,1.50230637 C67.361805,0.662753929 69.9354363,1.80669301 70.870308,4.09534563 L78.23277,22.1193355 L78.23277,22.1193355 L7.933464,22.1193355 Z" id="Path-22" stroke="#FFFFFF" stroke-width="2" fill="#202836" stroke-linejoin="round"></path>
+                            <path d="M71.290989,21.7908306 C71.290989,15.6827447 66.3084166,10.7311628 60.162102,10.7311628 C54.0157875,10.7311628 49.033215,15.6827447 49.033215,21.7908306" id="Path" fill="url(#linearGradient-2)"></path>
+                            <path d="M22.257774,95.8139535 L6.170472,95.8139535 C2.76261442,95.8139535 0,93.0685219 0,89.6818605 L0,28.3609302 C0,24.9742688 2.76261442,22.2288372 6.170472,22.2288372 L83.962494,22.2288372 C87.3703516,22.2288372 90.132966,24.9742688 90.132966,28.3609302 C90.132966,37.6666503 90.132966,44.6459404 90.132966,49.2988005 M90.132966,67.1302815 C90.132966,71.4659403 90.132966,78.9831332 90.132966,89.6818605 C90.132966,93.0685219 87.3703516,95.8139535 83.962494,95.8139535 L63.467712,95.8139535" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

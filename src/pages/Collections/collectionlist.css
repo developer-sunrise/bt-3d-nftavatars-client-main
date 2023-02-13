@@ -1,0 +1,35 @@
+.collection-text{
+    font-size: 17px;
+    /* font-weight: 600; */
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+}
+.collection-img{
+    width: 14%;
+    margin-bottom: 12%;
+}
+.click{
+    font-size: 17px;
+    color: rgb(255 255 255);
+    cursor: pointer;
+    border-bottom: 4px solid #0BC209;
+    border-radius: 5%;
+}
+
+.collectionlistcards{
+    width: 90%;
+    background-color: #171725 !important;
+    border-radius: 18px !important;
+    z-index: 0
+}
+
+.linkProperty{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+@media (max-width: 600px) {
+    .collectionslistinmobileview{
+        margin-bottom: 6% !important;
+    }
+}
